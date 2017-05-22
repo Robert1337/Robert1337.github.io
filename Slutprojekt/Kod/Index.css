@@ -1,0 +1,255 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+body{
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+#storbox{
+	width:100%;
+	overflow:hidden;
+	height:150%;
+}
+
+.Logga{
+	height: 12vw;
+	width: 12vw;
+	float: left;
+}
+
+header{
+	width:100vw;
+	height:12vw;
+	background-color:#000;
+	background-image:url(redbullaom.png);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-size:18vw;		
+	margin:0 auto;
+	border-bottom: 3px solid #FFF;
+	font-family:Monofonto;
+}		
+
+nav{
+	height:26.05vw;
+	width:100vw;	
+}
+
+.navAthletes{
+	font-family:Monofonto;
+	text-align:center;
+	font-size:24px;
+}
+
+.yttreSSH
+{
+	width:100vw;
+	height:26.05vw;
+	overflow:hidden;
+	position:relative;
+	margin-top:-151.9px;
+}
+
+.inreSSH 
+{
+	display:flex;
+	position:absolute;
+	left:0;
+	transition: left 0.8s ease-out;
+}
+
+p{
+	font-size:25px;
+}
+
+@media screen and (max-width: 1900px) {
+	p{
+		font-size:15px;
+	}
+	iframe{
+		height:180px;
+		width:430px;
+	}
+	.RedBullPics img{
+	width:700px;
+	height:300px;
+	}
+	.ForTheLoveOfMovement img{
+
+	}
+}
+
+@media screen and(max-width: 1800px) {
+	p{
+		font-size:12px;
+	}
+	iframe{
+		height:150px;
+		width:250px;
+	}
+	article{
+		height:1300px;
+	}
+}
+
+
+@media screen and(max-width: 1100px) {
+	p{
+		font-size: 9px;
+	}
+	iframe{
+		height:80px;
+		width:150px;
+	}
+}
+
+@media screen and(max-width: 500px) {
+	p{
+		font-size:5px;
+	}
+	iframe{
+		height:40px;
+		width:60px;
+	}
+	
+}
+
+.next
+	{
+		background-image:url(Arrow_Right.png);
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		width:3vw;
+		position: absolute;
+		top:50%;
+		right:17px;
+		height:6vw;
+		transform:translateY(-50%);
+		cursor:pointer;
+		transition: opacity 0.1s linear;
+	}		
+.prev
+	{
+		background-image:url(Arrow_Left.png);
+		background-size:100% 100%;
+		background-repeat: no-repeat;
+		left:0px;
+		position: absolute;
+		top:50%;		
+		font-size:90px;
+		width:3vw;
+		height:6vw;
+		transform:translateY(-50%);
+		cursor:pointer;
+		transition: opacity 0.1s linear;
+	}
+	
+article{
+	background-image:url(WhiteBackground.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:800px;
+	width:100vw;
+	text-align:center;
+	font-family:Monofonto;
+	background-color:#FFF;
+	clear:left;
+	border-top: solid 2px #000;;
+}
+
+.intro{
+	font-family:Monofonto;
+	font-size:27px;
+	margin-left:10vw;
+	margin-right:10vw;
+}
+
+ul{
+	list-style:none;
+	margin-left:30vw;
+	font-family:Kingsmen;
+	height:100%;
+}
+
+li{
+	height:100%;
+	width:25%;
+	float:left;
+	font-size:1.85vw;
+	text-align:center;
+	line-height:6.8;
+}
+
+h1, h2{
+	color:#000;
+	font-size:2vw;
+	font-family:Monofonto;
+	text-align:center;
+	text-align:center;
+}
+
+a:visited {
+    background-color:#FFF;
+    color:#FFF;
+    display: inline-block;
+}
+
+a:hover{
+	color:#000;	
+}
+
+
+li:hover
+{
+	background-color:#FFF;
+	
+}
+
+a{
+	text-decoration:none;
+	color:#FFF;
+}
+
+footer{
+	background-color:#000;
+	height:100px;
+	width:100vw;
+}
+
+img{
+	width: 100vw;
+	height: 26.05vw;
+}
+
+figcaption{
+	font-size:1.3vw;
+}
+
+.RedBullPics img{
+	width:40vw;
+	height:20vw;
+}
+
+.ForText{
+	width: 40vw;
+	height: 800px;
+	float: left;
+}
+
+.ForTheLoveOfMovement img{
+	width:45vw;
+	height:25vw;
+	float: right;
+	margin-right: 50px;
+	border: solid 3px #000;
+}
